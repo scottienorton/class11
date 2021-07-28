@@ -1,0 +1,65 @@
+body {background-color: red;
+color:navy;
+font-family:"Zen Tokyo Zoo";}
+
+@font-face {
+    font-family:"spacerave";
+    src: url("Space Rave.ttf");
+}
+
+h1{font-family:"Zen Tokyo Zoo";
+font-size:300%;
+text-align:center;
+margin:auto;
+}
+
+div.container {background-color:yellow;
+display:flex;
+flex-direction: row;
+align-items:center;
+flex-wrap:wrap;
+justify-content: space-between;
+flex:0 1 1fr;
+justify-content:center;
+text-align:center;}
+
+div.container2 {background-color:blue;
+flex:1 0 1fr;
+width:30%;
+    display:flex;
+    flex-direction: column;
+justify-content:space-between;
+flex-flow:column wrap;
+padding:30px;
+text-align:center;}
+
+div.container2 {background-color:blue;
+    flex:1 0 1fr;
+    width:30%;
+        display:flex;
+        flex-direction: column;
+    justify-content:space-between;
+    flex-flow:column wrap;
+    padding:30px;
+    text-align:center;}
+
+p {padding:30px;
+background-color:orange;
+margin:1%;}
+
+div.grid {background-color:blue;
+        display:grid;
+grid-template-columns:(1 2 1);
+grid-template-rows:(1 1 1);
+grid-column-gap:10px;
+grid-row-gap:10px;
+    text-align:center;}
+
+table {background-color:white;
+margin:auto;
+width:50%;
+padding:10px;}
+
+caption {font-size:x-large;}
+tr:nth-of-type(even) { background-color: #eaeaea; }
+tr:nth-of-type(odd) { background-color: lightblue; }
